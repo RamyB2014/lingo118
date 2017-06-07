@@ -53,7 +53,7 @@
             mtype="seg"
             mid="1"
             MadCap:segmentStatus="Accepted"
-            MadCap:matchPercent="0">Name des Unterordners</mrk></target></trans-unit><trans-unit
+            MadCap:matchPercent="0">Hello	</mrk></target></trans-unit><trans-unit
         id="2"
         restype="x-xml-p"
         phase-name="pretrans"><source>This should be excluded.</source><seg-source><mrk
@@ -65,6 +65,6 @@
             mtype="seg"
             mid="1"
             MadCap:segmentStatus="Accepted"
-            MadCap:matchPercent="0">Soll sie von den Wahlen ausgeschlossen werden?</mrk></target></trans-unit></body>
+            MadCap:matchPercent="0">how are you?</mrk></target></trans-unit></body>
   </file>
 </xliff>
