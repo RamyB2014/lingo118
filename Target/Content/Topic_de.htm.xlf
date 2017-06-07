@@ -45,15 +45,19 @@
     <body><trans-unit
         id="1"
         restype="x-xml-h1"
-        phase-name="pretrans"><source>Topic Title1 UPDATED</source><seg-source><mrk
+        phase-name="pretrans"><source>Topic Title1 =====</source><seg-source><mrk
             mtype="seg"
             mid="1"
-            MadCap:parentConditions="Default.ScreenOnly;">Topic Title1 UPDATED</mrk></seg-source><target
+            MadCap:parentConditions="Default.ScreenOnly;">Topic Title1 =====</mrk></seg-source><target
           state="translated"><mrk
             mtype="seg"
             mid="1"
             MadCap:segmentStatus="Accepted"
-            MadCap:matchPercent="0">Thema Title1 aktualisiert</mrk></target></trans-unit><trans-unit
+            MadCap:matchPercent="65"
+            MadCap:diff="ContentChanged">hello world =====</mrk></target><alt-trans
+          match-quality="65"
+          origin="previous-version"><seg-source>Topic Title1 UPDATED</seg-source><target
+            MadCap:segmentStatus="Untranslated">Thema Title1 aktualisiert</target></alt-trans></trans-unit><trans-unit
         id="2"
         restype="x-xml-p"
         phase-name="pretrans"><source>This should be excluded.</source><seg-source><mrk
